@@ -13,3 +13,4 @@ function MovieContent(){
 
     )
 }
+export default MovieContent;
