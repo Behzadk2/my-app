@@ -18,7 +18,7 @@ const[imovie,setImovie] = useState('')
   return (
     <>
     <Header></Header>
-    <MovieContent></MovieContent>
+    <MovieContent moviename={imovie.title} movieRank={imovie.rank}></MovieContent>
     </>
   );
 }

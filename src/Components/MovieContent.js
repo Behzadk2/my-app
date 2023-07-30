@@ -1,13 +1,13 @@
 import React from "react";
 
-function MovieContent(){
+function MovieContent(props){
 
 
 
     return(
         <>
-        <h1>Movie name :</h1>
-        <h2>Movie Rank :</h2>
+        <h1>Movie name : {props.moviename}</h1>
+        <h2>Movie Rank : {props.movieRank}</h2>
         </>
 
 
